@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>D:\Project\JavaProject\WebSite-UI\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods, 1 failed,   5 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.demo.test.testcases.home.HomePage_002_CheckoTherPages" hash-for-method="homePage_002_CheckoTherPages">homePage_002_CheckoTherPages</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.demo.test.testcases.home.HomePage_001_CheckUserName" hash-for-method="checkHomeText({PASSWORD=a1234567, USERNAME=allen})">checkHomeText({PASSWORD=a1234567, USERNAME=allen})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.demo.test.testcases.login.LoginPage_002_LoginFailFunction" hash-for-method="loginPage_004_LoginWithWrongPwd({PASSWORD=a123456, ERROR=用户名或密码错误，请重新输入, USERNAME=liuyan})">loginPage_004_LoginWithWrongPwd({PASSWORD=a123456, ERROR=用户名或密码错误，请重新输入, USERNAME=liuyan})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.demo.test.testcases.login.LoginPage_002_LoginFailFunction" hash-for-method="loginPage_004_LoginWithWrongPwd({PASSWORD=, ERROR=密码不能为空, USERNAME=liuyan})">loginPage_004_LoginWithWrongPwd({PASSWORD=, ERROR=密码不能为空, USERNAME=liuyan})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.demo.test.testcases.login.LoginPage_002_LoginFailFunction" hash-for-method="loginPage_004_LoginWithWrongPwd({PASSWORD=a1234567, ERROR=用户名或密码错误，请重新输入!, USERNAME=liuyana})">loginPage_004_LoginWithWrongPwd({PASSWORD=a1234567, ERROR=用户名或密码错误，请重新输入!, USERNAME=liuyana})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.demo.test.testcases.login.LoginPage_001_LoginSuccessFunction" hash-for-method="loginSuccessFunction({PASSWORD=a1234567, USERNAME=allen})">loginSuccessFunction({PASSWORD=a1234567, USERNAME=allen})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.demo.test.testcases.home.HomePage_002_CheckoTherPages</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="homePage_002_CheckoTherPages">
+                  </a> <!-- homePage_002_CheckoTherPages -->
+                  <span class="method-name">homePage_002_CheckoTherPages</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Cannot inject @Test annotated Method [homePage_002_CheckoTherPages] with [interface java.util.Map].
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.demo.test.testcases.home.HomePage_001_CheckUserName</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkHomeText({PASSWORD=a1234567, USERNAME=allen})">
+                  </a> <!-- checkHomeText({PASSWORD=a1234567, USERNAME=allen}) -->
+                  <span class="method-name">checkHomeText</span>
+                  <span class="parameters">({PASSWORD=a1234567, USERNAME=allen})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.demo.test.testcases.login.LoginPage_002_LoginFailFunction</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPage_004_LoginWithWrongPwd({PASSWORD=a123456, ERROR=用户名或密码错误，请重新输入, USERNAME=liuyan})">
+                  </a> <!-- loginPage_004_LoginWithWrongPwd({PASSWORD=a123456, ERROR=用户名或密码错误，请重新输入, USERNAME=liuyan}) -->
+                  <span class="method-name">loginPage_004_LoginWithWrongPwd</span>
+                  <span class="parameters">({PASSWORD=a123456, ERROR=用户名或密码错误，请重新输入, USERNAME=liuyan})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPage_004_LoginWithWrongPwd({PASSWORD=, ERROR=密码不能为空, USERNAME=liuyan})">
+                  </a> <!-- loginPage_004_LoginWithWrongPwd({PASSWORD=, ERROR=密码不能为空, USERNAME=liuyan}) -->
+                  <span class="method-name">loginPage_004_LoginWithWrongPwd</span>
+                  <span class="parameters">({PASSWORD=, ERROR=密码不能为空, USERNAME=liuyan})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPage_004_LoginWithWrongPwd({PASSWORD=a1234567, ERROR=用户名或密码错误，请重新输入!, USERNAME=liuyana})">
+                  </a> <!-- loginPage_004_LoginWithWrongPwd({PASSWORD=a1234567, ERROR=用户名或密码错误，请重新输入!, USERNAME=liuyana}) -->
+                  <span class="method-name">loginPage_004_LoginWithWrongPwd</span>
+                  <span class="parameters">({PASSWORD=a1234567, ERROR=用户名或密码错误，请重新输入!, USERNAME=liuyana})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.demo.test.testcases.login.LoginPage_001_LoginSuccessFunction</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginSuccessFunction({PASSWORD=a1234567, USERNAME=allen})">
+                  </a> <!-- loginSuccessFunction({PASSWORD=a1234567, USERNAME=allen}) -->
+                  <span class="method-name">loginSuccessFunction</span>
+                  <span class="parameters">({PASSWORD=a1234567, USERNAME=allen})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Project\JavaProject\WebSite-UI\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;-1&quot; name=&quot;Suite&quot;&gt;
+  &lt;parameter name=&quot;testurl&quot; value=&quot;http://wt1.niwodai.com/&quot;/&gt;
+  &lt;parameter name=&quot;driverConfgFilePath&quot; value=&quot;config/driver.properties&quot;/&gt;
+  &lt;parameter name=&quot;timeOut&quot; value=&quot;20&quot;/&gt;
+  &lt;parameter name=&quot;browserName&quot; value=&quot;chrome&quot;/&gt;
+  &lt;parameter name=&quot;sleepTime&quot; value=&quot;800&quot;/&gt;
+  &lt;parameter name=&quot;waitMillisecondsForAlert&quot; value=&quot;40000&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.demo.test.plugins.arrow.TestResultListener&quot;/&gt;
+    &lt;listener class-name=&quot;com.demo.test.plugins.arrow.RetryListener&quot;/&gt;
+    &lt;listener class-name=&quot;com.demo.test.plugins.arrow.PowerEmailableReporter&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;登录&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.demo.test.testcases.home.HomePage_002_CheckoTherPages&quot;/&gt;
+      &lt;class name=&quot;com.demo.test.testcases.login.LoginPage_002_LoginFailFunction&quot;/&gt;
+      &lt;class name=&quot;com.demo.test.testcases.home.HomePage_001_CheckUserName&quot;/&gt;
+      &lt;class name=&quot;com.demo.test.testcases.login.LoginPage_001_LoginSuccessFunction&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 登录 --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">登录 (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'loginPage_004_LoginWithWrongPwd')
+data.setCell(0, 2, 'com.demo.test.testcases.login.LoginPage_002_LoginFailFunction')
+data.setCell(0, 3, 12616);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'loginSuccessFunction')
+data.setCell(1, 2, 'com.demo.test.testcases.login.LoginPage_001_LoginSuccessFunction')
+data.setCell(1, 3, 10264);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'checkHomeText')
+data.setCell(2, 2, 'com.demo.test.testcases.home.HomePage_001_CheckUserName')
+data.setCell(2, 3, 10256);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'loginPage_004_LoginWithWrongPwd')
+data.setCell(3, 2, 'com.demo.test.testcases.login.LoginPage_002_LoginFailFunction')
+data.setCell(3, 3, 9238);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'loginPage_004_LoginWithWrongPwd')
+data.setCell(4, 2, 'com.demo.test.testcases.login.LoginPage_002_LoginFailFunction')
+data.setCell(4, 3, 9014);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'homePage_002_CheckoTherPages')
+data.setCell(5, 2, 'com.demo.test.testcases.home.HomePage_002_CheckoTherPages')
+data.setCell(5, 3, 0);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 51 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">homePage_002_CheckoTherPages</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[2018_04_20_13_08_21_homePage_002_CheckoTherPages] ,截图失败，原因：null</span>
+                <span class="reporter-method-output"><img src="../../[2018_04_20_13_08_21_homePage_002_CheckoTherPages] ,截图失败，原因：null"/></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.demo.test.testcases.login.LoginPage_002_LoginFailFunction</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">startTest(org.testng.TestRunner@1fdad15)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">loginPage_004_LoginWithWrongPwd({PASSWORD=a123456, ERROR=用户名或密码错误，请重新输入, USERNAME=liuyan})</span>
+                <span class="method-start">13443 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginPage_004_LoginWithWrongPwd({PASSWORD=a1234567, ERROR=用户名或密码错误，请重新输入!, USERNAME=liuyana})</span>
+                <span class="method-start">26065 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginPage_004_LoginWithWrongPwd({PASSWORD=, ERROR=密码不能为空, USERNAME=liuyan})</span>
+                <span class="method-start">35084 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">44324 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.demo.test.testcases.home.HomePage_001_CheckUserName</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">startTest(org.testng.TestRunner@1fdad15)</span>
+                <span class="method-start">48188 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">checkHomeText({PASSWORD=a1234567, USERNAME=allen})</span>
+                <span class="method-start">60905 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">71243 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.demo.test.testcases.login.LoginPage_001_LoginSuccessFunction</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">startTest(org.testng.TestRunner@1fdad15)</span>
+                <span class="method-start">74649 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">loginSuccessFunction({PASSWORD=a1234567, USERNAME=allen})</span>
+                <span class="method-start">85231 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">95570 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

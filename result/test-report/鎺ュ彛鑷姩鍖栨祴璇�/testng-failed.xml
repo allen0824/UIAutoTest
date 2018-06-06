@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [鎺ュ彛鑷姩鍖栨祴璇�]">
+  <listeners>
+    <listener class-name="com.cn.niwodai.Report.listeners.ZTestReport"/>
+  </listeners>
+  <test name="鑷姩鍖栨祴璇曠敤渚�(failed)">
+    <parameter name="sheetName" value="Sheet1"/>
+    <parameter name="excelPath" value="case/api-data.xls"/>
+    <classes>
+      <class name="com.cn.niwodai.Report.listeners.TestNiwodai">
+        <methods>
+          <include name="testDemo"/>
+        </methods>
+      </class> <!-- com.cn.niwodai.Report.listeners.TestNiwodai -->
+    </classes>
+  </test> <!-- 鑷姩鍖栨祴璇曠敤渚�(failed) -->
+</suite> <!-- Failed suite [鎺ュ彛鑷姩鍖栨祴璇�] -->

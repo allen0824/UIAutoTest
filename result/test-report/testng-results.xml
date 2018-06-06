@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="37408" started-at="2018-05-22T03:47:05Z" finished-at="2018-05-22T03:47:43Z">
+    <groups>
+    </groups>
+    <test name="登录" duration-ms="37408" started-at="2018-05-22T03:47:05Z" finished-at="2018-05-22T03:47:43Z">
+      <class name="com.demo.test.testcases.login.LoginPage_001_LoginSuccessFunction">
+        <test-method status="PASS" signature="startTest(org.testng.ITestContext)[pri:0, instance:com.demo.test.testcases.login.LoginPage_001_LoginSuccessFunction@18caeb6]" name="startTest" is-config="true" duration-ms="24784" started-at="2018-05-22T11:47:05Z" finished-at="2018-05-22T11:47:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@df7d5c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="loginSuccessFunction(java.util.Map)[pri:0, instance:com.demo.test.testcases.login.LoginPage_001_LoginSuccessFunction@18caeb6]" name="loginSuccessFunction" duration-ms="9288" started-at="2018-05-22T11:47:31Z" data-provider="testData" finished-at="2018-05-22T11:47:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{PASSWORD=a1234567, USERNAME=allen}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSuccessFunction -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.demo.test.testcases.login.LoginPage_001_LoginSuccessFunction@18caeb6]" name="endTest" is-config="true" duration-ms="2688" started-at="2018-05-22T11:47:40Z" finished-at="2018-05-22T11:47:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.demo.test.testcases.login.LoginPage_001_LoginSuccessFunction -->
+    </test> <!-- 登录 -->
+  </suite> <!-- Suite -->
+</testng-results>

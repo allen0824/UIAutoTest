@@ -1,0 +1,41 @@
+[2018-05-21 15:20:13] [INFO] 当前操作系统是:[Windows 7]
+[2018-05-21 15:20:13] [INFO] 启动测试浏览器：[chrome]
+[2018-05-21 15:20:17] [INFO] 最大化浏览器:chrome
+[2018-05-21 15:20:32] [INFO] 打开测试页面:[http://wt1.niwodai.com/]
+[2018-05-21 15:20:32] [INFO] loginPage_004_LoginWithWrongPwd 测试用例开始执行！
+[2018-05-21 15:20:32] [INFO] 开始等待首页元素加载
+[2018-05-21 15:20:32] [INFO] 开始查找元素[By.xpath: //*[@id='login_bt']/a[1]]
+[2018-05-21 15:20:33] [INFO] 找到了元素 [By.xpath: //*[@id='login_bt']/a[1]]
+[2018-05-21 15:20:33] [INFO] 首页登录按钮加载完毕
+[2018-05-21 15:20:35] [INFO] 点击元素 [By.xpath: //*[@id='login_bt']/a[1]]
+[2018-05-21 15:20:36] [INFO] 开始检查登录页面元素
+[2018-05-21 15:20:36] [INFO] 开始查找元素[By.id: username]
+[2018-05-21 15:20:36] [INFO] 找到了元素 [By.id: username]
+[2018-05-21 15:20:36] [INFO] 开始查找元素[By.id: pwd]
+[2018-05-21 15:20:36] [INFO] 找到了元素 [By.id: pwd]
+[2018-05-21 15:20:36] [INFO] 开始查找元素[By.id: userLoginBtn]
+[2018-05-21 15:20:36] [INFO] 找到了元素 [By.id: userLoginBtn]
+[2018-05-21 15:20:36] [INFO] 检查登录页面元素完毕
+[2018-05-21 15:20:36] [INFO] 开始输入登录信息
+[2018-05-21 15:20:36] [INFO] 输入：[liuyan] 到 [By.id: username]
+[2018-05-21 15:20:36] [INFO] 输入：[a123456] 到 [By.id: pwd]
+[2018-05-21 15:20:36] [INFO] 输入登录信息完毕
+[2018-05-21 15:20:36] [INFO] 点击元素 [By.id: userLoginBtn]
+[2018-05-21 15:20:41] [INFO] 开始检查登录错误信息
+[2018-05-21 15:20:41] [INFO] 开始查找元素[By.xpath: //*[@id='errorMsg']/div/span]
+[2018-05-21 15:20:41] [INFO] 找到了元素 [By.xpath: //*[@id='errorMsg']/div/span]
+[2018-05-21 15:20:41] [INFO] 找到了期望的文字: [用户名或密码错误，请重新输入]
+[2018-05-21 15:20:42] [INFO] 打开测试页面:[http://wt1.niwodai.com/]
+[2018-05-21 15:20:42] [INFO] loginPage_004_LoginWithWrongPwd 测试用例执行成功！
+[2018-05-21 15:20:42] [INFO] loginPage_004_LoginWithWrongPwd 测试用例开始执行！
+[2018-05-21 15:20:42] [INFO] 开始等待首页元素加载
+[2018-05-21 15:20:42] [INFO] 开始查找元素[By.xpath: //*[@id='login_bt']/a[1]]
+[2018-05-21 15:21:02] [ERROR] 超时!! 20 秒之后还没找到元素 [By.xpath: //*[@id='login_bt']/a[1]]
+[2018-05-21 15:21:02] [WARN] loginPage_004_LoginWithWrongPwd 测试用例执行失败！
+[2018-05-21 15:21:02] [INFO] [2018_05_21_15_21_02_loginPage_004_LoginWithWrongPwd] 截图成功，保存在：[ result/screenshot/2018_05_21_15_21_02_loginPage_004_LoginWithWrongPwd.jpg ]
+[2018-05-21 15:21:02] [INFO] loginPage_004_LoginWithWrongPwd 测试用例开始执行！
+[2018-05-21 15:21:02] [INFO] 开始等待首页元素加载
+[2018-05-21 15:21:02] [INFO] 开始查找元素[By.xpath: //*[@id='login_bt']/a[1]]
+[2018-05-21 15:21:23] [ERROR] 超时!! 20 秒之后还没找到元素 [By.xpath: //*[@id='login_bt']/a[1]]
+[2018-05-21 15:21:23] [WARN] loginPage_004_LoginWithWrongPwd 测试用例执行失败！
+[2018-05-21 15:21:23] [INFO] [2018_05_21_15_21_23_loginPage_004_LoginWithWrongPwd] 截图成功，保存在：[ result/screenshot/2018_05_21_15_21_23_loginPage_004_LoginWithWrongPwd.jpg ]
